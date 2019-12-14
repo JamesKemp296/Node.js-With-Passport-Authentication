@@ -1,6 +1,12 @@
 const express = require('express')
+const expressLayout = require('express-ejs-layouts')
 
 const app = express()
+
+//EJS
+app.unsubscribe(expressLayout)
+app.set('view engine', 'ejs')
+
 
 // Routes
 app.use('/', require('./routes/index'))
