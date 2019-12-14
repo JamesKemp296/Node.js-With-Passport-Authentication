@@ -8,8 +8,8 @@ This app was created with
 
 ### To get started
 
-*First* `git clone` this repository.
+**First** `git clone` this repository.
 
-*Then* run `npm i`
+**Then** run `npm i`
 
-*User* `npm run dev` and go to `http://localhost:5000`
+**User** `npm run dev` and go to `http://localhost:5000`
